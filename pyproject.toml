@@ -1,0 +1,10 @@
+[project]
+name = "dsc190-assignment-07"
+version = "0.1.0"
+description = "Reproducible event processing with DVC and Marimo"
+requires-python = ">=3.11"
+dependencies = [
+    "dvc>=3,<4",
+    "marimo>=0.19,<1",
+    "matplotlib>=3.10,<4",
+]
